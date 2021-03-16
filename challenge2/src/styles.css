@@ -1,0 +1,12 @@
+body {
+  font-family: sans-serif;
+}
+.small{
+  background-color: blue;
+}
+.mid{
+  background-color: purple;
+}
+.big{
+  background-color: yellow;
+}
