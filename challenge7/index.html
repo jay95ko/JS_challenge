@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <link rel="stylesheet" href="src/styles.css" />
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <h1>Random Number Game</h1>
+    <h3 class="realtimeNumber">Generate a number between 0 and 100</h3>
+    <input type="range" class ="numberrange" value="100" min="0" max="200" step="5">
+    <div class="guessBox">
+      <label for="number">Guess the number:</label>
+      <input class="userInput"type="number" id="number" name="number" required
+       min="0" max="200" >
+       <button class="playBtn" type="button">play!</button>
+    </div>
+    <h3 class="choseAnswer"></h3>
+    <h2 class="answer"></h2>
+    <script src="src/index.js"></script>
+  </body>
+</html>
